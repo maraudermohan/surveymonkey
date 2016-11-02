@@ -2,6 +2,14 @@
 
 #[Open App](https://survey-monkey.herokuapp.com/)
 
+##Installation
+1. **Install [Node 6](https://nodejs.org)**. Need to run multiple versions of Node? Use [nvm](https://github.com/creationix/nvm) or [nvm-windows](https://github.com/coreybutler/nvm-windows)
+2. **Make sure you're in the root directory.** - `cd surveymonkey`
+3. **Install Node Packages.** - `npm install`
+4. **Run the app.** - `npm start`
+This will run the automated build process, start up a webserver, and open the application in your default browser.
+5. **App will load in [browser](http://localhost:3000/)**
+
 ##Production Dependencies
 | **Dependency** | **Use** |
 |----------|-------|
