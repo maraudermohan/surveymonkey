@@ -1,0 +1,29 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	font-size: 20px;
+}
+body h4 {
+	text-align: center;
+	margin: 0;
+	padding-top: 10px;
+}
+#app {
+	height: calc(100% - 75px);
+}
+button:hover {
+	background-color: skyblue;
+}
+#modal-container {
+	height: 100%;
+	position: fixed;
+}
+/* ----- MEDIA QUERY - PHONE  ----- */
+@media screen 
+and (max-width: 767px)  {
+	#modal-container {
+		height: auto;
+		padding: 10px; 
+		position: absolute;
+	}
+}
